@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register User for the application</description>
+   <name>L001_Register User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f136955-016e-4674-a48d-c9db683d6e3c</testCaseGuid>
+</TestCaseEntity>
