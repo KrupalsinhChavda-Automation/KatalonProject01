@@ -12,32 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fee10343-543f-48a5-8dc6-c869442793c2</testSuiteGuid>
    <testCaseLink>
-      <guid>998cc162-e89f-4993-9eda-61e10245896f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/L001_Register User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c4915224-a9b5-4936-9106-83aea9935be5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/L002_Login User with correct email and password</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f157887-d225-47fd-907f-b1ca17d05876</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2cc46757-34e9-4fce-9544-3991cd38d689</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>42c3e80b-0adc-4bfd-9179-f0da615c6a36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
