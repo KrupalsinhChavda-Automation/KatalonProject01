@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Scenarios" time="2.967" tests="1" failures="0" errors="0">
+   <testsuite name="Login Scenarios" tests="1" failures="0" errors="0" time="2.967" skipped="0" timestamp="13-08-2024T00:43:57" hostname="krupa - Krupal_Chavda.bbrouter" id="Test Suites/Login Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_004349\\Login Scenarios\\20240813_004350"/>
+         <property name="logFiles" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_004349\\Login Scenarios\\20240813_004350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="krupa - Krupal_Chavda.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="bf9c12a25aefcfd97f408f3b93e89070"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/L001_Register User" time="0.739" classname="Test Cases/Login/L001_Register User" status="PASSED">
+         <system-out><![CDATA[13-08-2024T00:43:59 - [TEST_CASE][PASSED] - Test Cases/Login/L001_Register User: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-08-2024T00:43:57 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-out>
+      <system-err><![CDATA[13-08-2024T00:43:57 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Scenarios,Chrome 127.0.0.0,,,12-08-2024 23:58:08,12-08-2024 23:58:51,42.556s,ERROR
+,,,,,,,
+Test Cases/Login/L001_Register User,Chrome 127.0.0.0,Register User for the application,,12-08-2024 23:58:08,12-08-2024 23:58:50,41.645s,PASSED
+file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))),Chrome 127.0.0.0,,,12-08-2024 23:58:09,12-08-2024 23:58:09,0.047s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file),Chrome 127.0.0.0,,,12-08-2024 23:58:09,12-08-2024 23:58:09,0.634s,PASSED
+sheet = workbook.getSheetAt(0),Chrome 127.0.0.0,,,12-08-2024 23:58:09,12-08-2024 23:58:09,0.012s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,Launch browser,,12-08-2024 23:58:09,12-08-2024 23:58:12,2.880s,PASSED
+"navigateToUrl(""http://automationexercise.com/"")",Chrome 127.0.0.0,Navigate to url http://automationexercise.com,,12-08-2024 23:58:12,12-08-2024 23:58:16,3.537s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Login/Menu_Home""), Long_Timeout)",Chrome 127.0.0.0,Verify that home page is visible successfully,,12-08-2024 23:58:16,12-08-2024 23:58:17,1.404s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Login/Menu_Home""), ""style"", ""color: orange;"", Short_Timeout)",Chrome 127.0.0.0,,,12-08-2024 23:58:17,12-08-2024 23:58:18,0.397s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Login/img_Home""), OPTIONAL)",Chrome 127.0.0.0,,,12-08-2024 23:58:18,12-08-2024 23:58:18,0.421s,PASSED
+"click(findTestObject(""Object Repository/Login/btn_Signup-Login""))",Chrome 127.0.0.0,"Click on ""Signup / Login"" button",,12-08-2024 23:58:18,12-08-2024 23:58:20,2.091s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Verify_NewUserSignup""), ""New User Signup!"")",Chrome 127.0.0.0,"Verify ""New User Signup!"" is visible",,12-08-2024 23:58:20,12-08-2024 23:58:21,0.698s,PASSED
+"setText(findTestObject(""Object Repository/Login/txt_Name""), ""KBC Automation"")",Chrome 127.0.0.0,"Enter ""Name""",,12-08-2024 23:58:21,12-08-2024 23:58:22,1.276s,PASSED
+random = Math.random() * 1000,Chrome 127.0.0.0,"Enter ""Email"" Address",,12-08-2024 23:58:22,12-08-2024 23:58:22,0.058s,PASSED
+myDateObj = LocalDateTime.now(),Chrome 127.0.0.0,,,12-08-2024 23:58:22,12-08-2024 23:58:22,0.014s,PASSED
+"out.println(""Before formatting: "" + myDateObj)",Chrome 127.0.0.0,,,12-08-2024 23:58:22,12-08-2024 23:58:22,0.041s,PASSED
+"myFormatObj = DateTimeFormatter.ofPattern(""ddMMyyyy"")",Chrome 127.0.0.0,,,12-08-2024 23:58:22,12-08-2024 23:58:22,0.014s,PASSED
+formattedDate = myDateObj.format(myFormatObj),Chrome 127.0.0.0,,,12-08-2024 23:58:22,12-08-2024 23:58:22,0.005s,PASSED
+"setText(findTestObject(""Object Repository/Login/txt_Email""), ""Test"" + formattedDate + ""@"" + random + "".com"")",Chrome 127.0.0.0,,,12-08-2024 23:58:22,12-08-2024 23:58:23,0.997s,PASSED
+"createCell(0).setCellValue(""Test"" + formattedDate + ""@"" + random + "".com"")",Chrome 127.0.0.0,Write data to excel for email,,12-08-2024 23:58:23,12-08-2024 23:58:23,0.161s,PASSED
+"click(findTestObject(""Object Repository/Login/btn_SignUp""))",Chrome 127.0.0.0,"Click ""Signup"" button",,12-08-2024 23:58:23,12-08-2024 23:58:27,3.219s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Login/txt_Name""), ""value"", ""KBC Automation"", Short_Timeout)",Chrome 127.0.0.0,"Verify that ""ENTER ACCOUNT INFORMATION"" is visible",,12-08-2024 23:58:27,12-08-2024 23:58:28,0.900s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Account Info/verify_Email""), ""value"", ""Test"" + formattedDate + ""@"" + random + "".com"", Short_Timeout)",Chrome 127.0.0.0,,,12-08-2024 23:58:28,12-08-2024 23:58:28,0.310s,PASSED
+"check(findTestObject(""Object Repository/Account Info/radiobtn_Title""))",Chrome 127.0.0.0,"Select the ""Title""",,12-08-2024 23:58:28,12-08-2024 23:58:28,0.382s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_Password""), ""Test"" + formattedDate + ""@"" + random)",Chrome 127.0.0.0,"Set the ""Password"" for our logged in user",,12-08-2024 23:58:28,12-08-2024 23:58:29,0.911s,PASSED
+"createCell(1).setCellValue(""Test"" + formattedDate + ""@"" + random)",Chrome 127.0.0.0,Write data to excel for email,,12-08-2024 23:58:29,12-08-2024 23:58:29,0.007s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Account Info/drp_days""), ""21"", false)",Chrome 127.0.0.0,Set The Date of Birth,,12-08-2024 23:58:29,12-08-2024 23:58:30,0.761s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Account Info/drp_Month""), Short_Timeout)",Chrome 127.0.0.0,,,12-08-2024 23:58:30,12-08-2024 23:58:30,0.329s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Account Info/drp_Month""), ""3"", false)",Chrome 127.0.0.0,,,12-08-2024 23:58:30,12-08-2024 23:58:31,0.694s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Account Info/drp_Year""), ""2002"", false)",Chrome 127.0.0.0,,,12-08-2024 23:58:31,12-08-2024 23:58:32,0.627s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Account Info/checkbox_signUpNews""), Short_Timeout)",Chrome 127.0.0.0,"Select checkbox ""Sign up for our newsletter!""",,12-08-2024 23:58:32,12-08-2024 23:58:32,0.376s,PASSED
+"click(findTestObject(""Object Repository/Account Info/checkbox_signUpNews""))",Chrome 127.0.0.0,,,12-08-2024 23:58:32,12-08-2024 23:58:32,0.382s,PASSED
+"click(findTestObject(""Object Repository/Account Info/checkbox_option""))",Chrome 127.0.0.0,"Select checkbox ""Receive special offers from our partners!""",,12-08-2024 23:58:32,12-08-2024 23:58:33,0.374s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Account Info/txt_first_name""), Short_Timeout)",Chrome 127.0.0.0,"Enter ""First name""",,12-08-2024 23:58:33,12-08-2024 23:58:33,0.335s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_first_name""), ""KBC"")",Chrome 127.0.0.0,,,12-08-2024 23:58:33,12-08-2024 23:58:34,0.870s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_last_name""), ""Automation"")",Chrome 127.0.0.0,"Enter ""Last name""",,12-08-2024 23:58:34,12-08-2024 23:58:35,0.910s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_Company""), ""Automation"")",Chrome 127.0.0.0,"Enter ""Company""",,12-08-2024 23:58:35,12-08-2024 23:58:36,0.951s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_Address""), ""Test near test"")",Chrome 127.0.0.0,"Enter ""Address""",,12-08-2024 23:58:36,12-08-2024 23:58:37,0.923s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_Address2""), ""Address 2"")",Chrome 127.0.0.0,"Enter ""Address 2""",,12-08-2024 23:58:37,12-08-2024 23:58:38,0.859s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Account Info/drp_Country""), ""Australia"", false)",Chrome 127.0.0.0,"Select ""Country""",,12-08-2024 23:58:38,12-08-2024 23:58:38,0.702s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Account Info/txt_State""), Short_Timeout)",Chrome 127.0.0.0,"Enter ""State""",,12-08-2024 23:58:38,12-08-2024 23:58:39,0.305s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_State""), ""ACT"")",Chrome 127.0.0.0,,,12-08-2024 23:58:39,12-08-2024 23:58:39,0.770s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_City""), ""Melbourne"")",Chrome 127.0.0.0,"Enter ""City""",,12-08-2024 23:58:39,12-08-2024 23:58:40,0.810s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/txt_zipcode""), ""2900"")",Chrome 127.0.0.0,"Enter ""ZipCode""",,12-08-2024 23:58:40,12-08-2024 23:58:41,0.781s,PASSED
+"setText(findTestObject(""Object Repository/Account Info/num_Mobile""), ""1236123612"")",Chrome 127.0.0.0,"Enter ""ZipCode""",,12-08-2024 23:58:41,12-08-2024 23:58:42,0.883s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Account Info/btn_CreateAcc""), Short_Timeout)",Chrome 127.0.0.0,"Click ""Create Account button""",,12-08-2024 23:58:42,12-08-2024 23:58:42,0.327s,PASSED
+"click(findTestObject(""Object Repository/Account Info/btn_CreateAcc""))",Chrome 127.0.0.0,,,12-08-2024 23:58:42,12-08-2024 23:58:45,3.012s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Account Info/verify_AccountCreated""), ""ACCOUNT CREATED!"")",Chrome 127.0.0.0,"Verify that ""ACCOUNT CREATED!"" is visible",,12-08-2024 23:58:45,12-08-2024 23:58:46,1.220s,PASSED
+"click(findTestObject(""Object Repository/Account Info/btn_Continue""))",Chrome 127.0.0.0,"Click ""Continue"" button",,12-08-2024 23:58:46,12-08-2024 23:58:49,2.467s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Account Info/verify_loggedinUser""), ""KBC Automation"")",Chrome 127.0.0.0,"Verify that ""Logged in as username"" is visible",,12-08-2024 23:58:49,12-08-2024 23:58:50,0.749s,PASSED
+file.close(),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.005s,PASSED
+outFile = new java.io.FileOutputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.015s,PASSED
+workbook.write(outFile),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.231s,PASSED
+outFile.close(),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.000s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.273s,PASSED
+,,,,,,,
+Test Cases/Login/L004_Logout,Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:51,0.685s,ERROR
+file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.002s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.035s,PASSED
+sheet = workbook.getSheetAt(0),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.000s,PASSED
+userEmail = getCell(0).getStringCellValue(),Chrome 127.0.0.0,Read data from excel,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.000s,PASSED
+password = getCell(1).getStringCellValue(),Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:50,0.006s,PASSED
+"callTestCase(findTestCase(""Login/L002_Login User with correct email and password""), [""userEmail"":userEmail, ""password"":password], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,12-08-2024 23:58:50,12-08-2024 23:58:51,0.448s,ERROR

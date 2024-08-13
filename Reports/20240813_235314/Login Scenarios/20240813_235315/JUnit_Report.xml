@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Scenarios" time="21.58" tests="2" failures="1" errors="0">
+   <testsuite name="Login Scenarios" tests="2" failures="1" errors="0" time="21.58" skipped="0" timestamp="13-08-2024T23:53:22" hostname="krupa - Krupal_Chavda.bbrouter" id="Test Suites/Login Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315"/>
+         <property name="logFiles" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315\\execution0.log"/>
+         <property name="attachments" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315\\1723573423838.png, K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315\\1723573423978.png"/>
+         <property name="hostName" value="krupa - Krupal_Chavda.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="e69950b535431013514a65c6e1cd022b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/L004_Logout" time="21.239" classname="Test Cases/Login/L004_Logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/L004_Logout FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)&#xa;	at L004_Logout.run(L004_Logout:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[13-08-2024T23:53:22 - [TEST_CASE][FAILED] - Test Cases/Login/L004_Logout: Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)
+	at L004_Logout.run(L004_Logout:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - sheet = workbook.getSheetAt(0): null
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - userEmail = getCell(0).getStringCellValue(): null
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - password = getCell(1).getStringCellValue(): null
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login"), ["userEmail":userEmail, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+13-08-2024T23:53:23 - [MESSAGE][INFO] - Checking called Test Case
+
+13-08-2024T23:53:23 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Login/Login'
+
+13-08-2024T23:53:23 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+13-08-2024T23:53:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-08-2024T23:53:24 - [MESSAGE][INFO] - Opening browser
+
+13-08-2024T23:53:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-08-2024T23:53:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-08-2024T23:53:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-08-2024T23:53:27 - [TEST_STEP][PASSED] - navigateToUrl("http://automationexercise.com/"): Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:53:27 - [MESSAGE][INFO] - Checking url
+
+13-08-2024T23:53:27 - [MESSAGE][INFO] - Navigating to 'http://automationexercise.com/'
+
+13-08-2024T23:53:30 - [MESSAGE][PASSED] - Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:53:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:53:30 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:53:31 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:53:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:53:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL): Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/img_Home'
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Signup-Login")): Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:53:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:53:33 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:53:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Verify_Logintoyouraccount"), "Login to your account"): Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Verify_Logintoyouraccount'
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T23:53:34 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T23:53:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T23:53:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_EmailAddress"), userEmail): Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:53:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_EmailAddress' to value 'Test13082024@269.com'
+
+13-08-2024T23:53:36 - [MESSAGE][PASSED] - Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:53:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_password"), password): Text 'Test13082024@269' is set on object 'Object Repository/Login/txt_password'
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_password'
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_password'
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T23:53:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_password' to value 'Test13082024@269'
+
+13-08-2024T23:53:37 - [MESSAGE][PASSED] - Text 'Test13082024@269' is set on object 'Object Repository/Login/txt_password'
+
+13-08-2024T23:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Login")): Object: 'Object Repository/Login/btn_Login' is clicked on
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Login'
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Login' located by 'By.xpath: //button[@data-qa='login-button']' in '30' second(s)
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Login' located by 'By.xpath: //button[@data-qa='login-button']' in '30' second(s)
+
+13-08-2024T23:53:37 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Login'
+
+13-08-2024T23:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+13-08-2024T23:53:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_loggedinUser"), "KBC Automation"): Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_loggedinUser'
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T23:53:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T23:53:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+13-08-2024T23:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Logout")): Object: 'Object Repository/Login/btn_Logout' is clicked on
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Logout'
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Logout' located by 'By.xpath: //a[@href='/logout']' in '30' second(s)
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Logout' located by 'By.xpath: //a[@href='/logout']' in '30' second(s)
+
+13-08-2024T23:53:40 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Logout'
+
+13-08-2024T23:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Logout' is clicked on
+
+13-08-2024T23:53:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:53:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:53:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:53:43 - [TEST_STEP][FAILED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)
+	at L004_Logout.run(L004_Logout:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:53:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:53:43 - [MESSAGE][FAILED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)
+	at L004_Logout.run(L004_Logout:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315\\1723573423838.png]]
+
+13-08-2024T23:53:44 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)
+	at L004_Logout.run(L004_Logout:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_235314\\Login Scenarios\\20240813_235315\\1723573423978.png]]]]></system-out>
+         <system-err><![CDATA[13-08-2024T23:53:22 - [TEST_CASE][FAILED] - Test Cases/Login/L004_Logout: Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4424)
+	at L004_Logout.run(L004_Logout:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573395985.run(TempTestSuite1723573395985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/Menu_Home' has attribute 'style' with actual value '' instead of expected value 'color: orange;'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L002_Login User with correct email and password" time="0.085" classname="Test Cases/Login/L002_Login User with correct email and password" status="PASSED">
+         <system-out><![CDATA[13-08-2024T23:53:44 - [TEST_CASE][PASSED] - Test Cases/Login/L002_Login User with correct email and password: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-08-2024T23:53:22 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-out>
+      <system-err><![CDATA[13-08-2024T23:53:22 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-err>
+   </testsuite>
+</testsuites>

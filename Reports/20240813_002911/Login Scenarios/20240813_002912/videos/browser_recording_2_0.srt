@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:00,000
+3. Launch browser
+
+2
+00:00:00,000 --> 00:00:00,000
+9. Navigate to url http://automationexercise.com
+
+3
+00:00:00,000 --> 00:00:00,000
+15. Verify that home page is visible successfully
+
+4
+00:00:00,000 --> 00:00:00,000
+19. verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout)
+
+5
+00:00:00,000 --> 00:00:00,000
+23. verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL)
+
+6
+00:00:00,000 --> 00:00:00,000
+29. Click on "Signup / Login" button
+
+7
+00:00:00,000 --> 00:00:00,000
+35. Verify "Login to your account" is visible
+
+8
+00:00:00,000 --> 00:00:00,000
+41. Enter correct email address
+
+9
+00:00:00,000 --> 00:00:00,000
+47. Enter correct email address
+
+10
+00:00:00,000 --> 00:00:00,000
+53. Click on "Login" button
+
