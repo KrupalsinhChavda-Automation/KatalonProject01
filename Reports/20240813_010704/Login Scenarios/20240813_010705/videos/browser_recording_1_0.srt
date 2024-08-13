@@ -1,0 +1,216 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx)))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. sheet = workbook.getSheetAt(0)
+
+4
+00:00:00,000 --> 00:00:00,000
+15. Launch browser
+
+5
+00:00:00,000 --> 00:00:00,000
+19. maximizeWindow()
+
+6
+00:00:00,000 --> 00:00:00,000
+25. Navigate to url http://automationexercise.com
+
+7
+00:00:00,000 --> 00:00:00,000
+31. Verify that home page is visible successfully
+
+8
+00:00:00,000 --> 00:00:00,000
+35. verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout)
+
+9
+00:00:00,000 --> 00:00:00,000
+39. verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL)
+
+10
+00:00:00,000 --> 00:00:00,000
+45. Click on "Signup / Login" button
+
+11
+00:00:00,000 --> 00:00:00,000
+51. Verify "New User Signup!" is visible
+
+12
+00:00:00,000 --> 00:00:00,000
+57. Enter "Name"
+
+13
+00:00:00,000 --> 00:00:00,000
+63. Enter "Email" Address
+
+14
+00:00:00,000 --> 00:00:00,000
+67. myDateObj = LocalDateTime.now()
+
+15
+00:00:00,000 --> 00:00:00,000
+71. out.println("Before formatting: " + myDateObj)
+
+16
+00:00:00,000 --> 00:00:00,000
+75. myFormatObj = DateTimeFormatter.ofPattern("ddMMyyyy")
+
+17
+00:00:00,000 --> 00:00:00,000
+79. formattedDate = myDateObj.format(myFormatObj)
+
+18
+00:00:00,000 --> 00:00:00,000
+83. setText(findTestObject("Object Repository/Login/txt_Email"), "Test" + formattedDate + "@" + random + ".com")
+
+19
+00:00:00,000 --> 00:00:00,000
+89. Write data to excel for email
+
+20
+00:00:00,000 --> 00:00:00,000
+95. Click "Signup" button
+
+21
+00:00:00,000 --> 00:00:00,000
+101. Verify that "ENTER ACCOUNT INFORMATION" is visible
+
+22
+00:00:00,000 --> 00:00:00,000
+105. verifyElementAttributeValue(findTestObject("Object Repository/Account Info/verify_Email"), "value", "Test" + formattedDate + "@" + random + ".com", Short_Timeout)
+
+23
+00:00:00,000 --> 00:00:00,000
+111. Select the "Title"
+
+24
+00:00:00,000 --> 00:00:00,000
+117. Set the "Password" for our logged in user
+
+25
+00:00:00,000 --> 00:00:00,000
+123. Write data to excel for email
+
+26
+00:00:00,000 --> 00:00:00,000
+129. Set The Date of Birth
+
+27
+00:00:00,000 --> 00:00:00,000
+133. waitForElementVisible(findTestObject("Object Repository/Account Info/drp_Month"), Short_Timeout)
+
+28
+00:00:00,000 --> 00:00:00,000
+137. selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Month"), "3", false)
+
+29
+00:00:00,000 --> 00:00:00,000
+141. selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Year"), "2002", false)
+
+30
+00:00:00,000 --> 00:00:00,000
+147. Select checkbox "Sign up for our newsletter!"
+
+31
+00:00:00,000 --> 00:00:00,000
+151. click(findTestObject("Object Repository/Account Info/checkbox_signUpNews"))
+
+32
+00:00:00,000 --> 00:00:00,000
+157. Select checkbox "Receive special offers from our partners!"
+
+33
+00:00:00,000 --> 00:00:00,000
+163. Enter "First name"
+
+34
+00:00:00,000 --> 00:00:00,000
+167. setText(findTestObject("Object Repository/Account Info/txt_first_name"), "KBC")
+
+35
+00:00:00,000 --> 00:00:00,000
+173. Enter "Last name"
+
+36
+00:00:00,000 --> 00:00:00,000
+179. Enter "Company"
+
+37
+00:00:00,000 --> 00:00:00,000
+185. Enter "Address"
+
+38
+00:00:00,000 --> 00:00:00,000
+191. Enter "Address 2"
+
+39
+00:00:00,000 --> 00:00:00,000
+197. Select "Country"
+
+40
+00:00:00,000 --> 00:00:00,000
+203. Enter "State"
+
+41
+00:00:00,000 --> 00:00:00,000
+207. setText(findTestObject("Object Repository/Account Info/txt_State"), "ACT")
+
+42
+00:00:00,000 --> 00:00:00,000
+213. Enter "City"
+
+43
+00:00:00,000 --> 00:00:00,000
+219. Enter "ZipCode"
+
+44
+00:00:00,000 --> 00:00:00,000
+225. Enter "ZipCode"
+
+45
+00:00:00,000 --> 00:00:00,000
+231. Click "Create Account button"
+
+46
+00:00:00,000 --> 00:00:00,000
+235. click(findTestObject("Object Repository/Account Info/btn_CreateAcc"))
+
+47
+00:00:00,000 --> 00:00:00,000
+241. Verify that "ACCOUNT CREATED!" is visible
+
+48
+00:00:00,000 --> 00:00:00,000
+247. Click "Continue" button
+
+49
+00:00:00,000 --> 00:00:00,000
+253. Verify that "Logged in as username" is visible
+
+50
+00:00:00,000 --> 00:00:00,000
+257. file.close()
+
+51
+00:00:00,000 --> 00:00:00,000
+261. outFile = new java.io.FileOutputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx)))
+
+52
+00:00:00,000 --> 00:00:00,000
+265. workbook.write(outFile)
+
+53
+00:00:00,000 --> 00:00:00,000
+269. outFile.close()
+
+54
+00:00:00,000 --> 00:00:00,000
+273. click(findTestObject("Object Repository/Login/btn_Logout"))
+

@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,000
+3. Call Login test case to run the login test
+
+2
+00:00:00,000 --> 00:00:00,000
+3. Open Browser
+
+3
+00:00:00,000 --> 00:00:00,000
+7. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. Navigate to url http://automationexercise.com
+
+5
+00:00:00,000 --> 00:00:00,000
+19. Verify that home page is visible successfully
+
+6
+00:00:00,000 --> 00:00:00,000
+23. verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout)
+
+7
+00:00:00,000 --> 00:00:00,000
+27. verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL)
+
+8
+00:00:00,000 --> 00:00:00,000
+33. Click on "Signup / Login" button
+
+9
+00:00:00,000 --> 00:00:00,000
+39. Verify "Login to your account" is visible
+
+10
+00:00:00,000 --> 00:00:00,000
+45. Enter correct email address
+
+11
+00:00:00,000 --> 00:00:00,000
+51. Enter correct email address
+
+12
+00:00:00,000 --> 00:00:00,000
+57. Click on "Login" button
+
+13
+00:00:00,000 --> 00:00:00,000
+63. Verify logged in user
+

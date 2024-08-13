@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Scenarios" time="75.864" tests="3" failures="0" errors="0">
+   <testsuite name="Login Scenarios" tests="3" failures="0" errors="0" time="75.864" skipped="0" timestamp="13-08-2024T00:37:40" hostname="krupa - Krupal_Chavda.bbrouter" id="Test Suites/Login Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_003732\\Login Scenarios\\20240813_003733"/>
+         <property name="logFiles" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_003732\\Login Scenarios\\20240813_003733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="krupa - Krupal_Chavda.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="e7fe432fac9b03f32a5dde80d3c2add0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/L001_Register User" time="59.86" classname="Test Cases/Login/L001_Register User" status="PASSED">
+         <system-out><![CDATA[13-08-2024T00:37:41 - [TEST_CASE][PASSED] - Test Cases/Login/L001_Register User: Test Cases/Login/L001_Register User
+
+13-08-2024T00:37:41 - [TEST_STEP][PASSED] - file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T00:37:41 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+13-08-2024T00:37:42 - [TEST_STEP][PASSED] - sheet = workbook.getSheetAt(0): null
+
+13-08-2024T00:37:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-08-2024T00:37:43 - [MESSAGE][INFO] - Opening browser
+
+13-08-2024T00:37:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-08-2024T00:37:43 - [MESSAGE][INFO] - User set preference: ['args', '[--incognit, --start-maximized]']
+
+13-08-2024T00:37:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-08-2024T00:37:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-08-2024T00:37:47 - [TEST_STEP][PASSED] - navigateToUrl("http://automationexercise.com/"): Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T00:37:47 - [MESSAGE][INFO] - Checking url
+
+13-08-2024T00:37:47 - [MESSAGE][INFO] - Navigating to 'http://automationexercise.com/'
+
+13-08-2024T00:37:57 - [MESSAGE][PASSED] - Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T00:37:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T00:37:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T00:37:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T00:37:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T00:37:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T00:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T00:38:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL): Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/img_Home'
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T00:38:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T00:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T00:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Signup-Login")): Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T00:38:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T00:38:06 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T00:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T00:38:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Verify_NewUserSignup"), "New User Signup!"): Actual text and expected text of test object 'Object Repository/Login/Verify_NewUserSignup' are matched.
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Verify_NewUserSignup'
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Verify_NewUserSignup' located by 'By.xpath: //h2[text()='New User Signup!']' in '30' second(s)
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:08 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Verify_NewUserSignup' located by 'By.xpath: //h2[text()='New User Signup!']' in '30' second(s)
+
+13-08-2024T00:38:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_NewUserSignup' are matched.
+
+13-08-2024T00:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_Name"), "KBC Automation"): Text 'KBC Automation' is set on object 'Object Repository/Login/txt_Name'
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Name'
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_Name'
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_Name' to value 'KBC Automation'
+
+13-08-2024T00:38:10 - [MESSAGE][PASSED] - Text 'KBC Automation' is set on object 'Object Repository/Login/txt_Name'
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - random = Math.random() * 1000: null
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - myDateObj = LocalDateTime.now(): null
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - out.println("Before formatting: " + myDateObj): null
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - myFormatObj = DateTimeFormatter.ofPattern("ddMMyyyy"): null
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - formattedDate = myDateObj.format(myFormatObj): null
+
+13-08-2024T00:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_Email"), "Test" + formattedDate + "@" + random + ".com"): Text 'Test13082024@942.com' is set on object 'Object Repository/Login/txt_Email'
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Email'
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_Email'
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T00:38:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_Email' to value 'Test13082024@942.com'
+
+13-08-2024T00:38:11 - [MESSAGE][PASSED] - Text 'Test13082024@942.com' is set on object 'Object Repository/Login/txt_Email'
+
+13-08-2024T00:38:11 - [TEST_STEP][PASSED] - createCell(0).setCellValue("Test" + formattedDate + "@" + random + ".com"): null
+
+13-08-2024T00:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_SignUp")): Object: 'Object Repository/Login/btn_SignUp' is clicked on
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_SignUp'
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_SignUp' located by 'By.xpath: //button[@data-qa='signup-button']' in '30' second(s)
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_SignUp' located by 'By.xpath: //button[@data-qa='signup-button']' in '30' second(s)
+
+13-08-2024T00:38:11 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_SignUp'
+
+13-08-2024T00:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_SignUp' is clicked on
+
+13-08-2024T00:38:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/txt_Name"), "value", "KBC Automation", Short_Timeout): Object 'Object Repository/Login/txt_Name' has attribute 'value' with value 'KBC Automation'
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Name'
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:14 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T00:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/txt_Name' has attribute 'value' with value 'KBC Automation'
+
+13-08-2024T00:38:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Account Info/verify_Email"), "value", "Test" + formattedDate + "@" + random + ".com", Short_Timeout): Object 'Object Repository/Account Info/verify_Email' has attribute 'value' with value 'Test13082024@942.com'
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_Email'
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_Email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_Email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+13-08-2024T00:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/verify_Email' has attribute 'value' with value 'Test13082024@942.com'
+
+13-08-2024T00:38:15 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Account Info/radiobtn_Title")): Object 'Object Repository/Account Info/radiobtn_Title' is checked
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/radiobtn_Title'
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/radiobtn_Title' located by 'By.xpath: //input[@id='id_gender1']' in '30' second(s)
+
+13-08-2024T00:38:15 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/radiobtn_Title' located by 'By.xpath: //input[@id='id_gender1']' in '30' second(s)
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Checking on bject 'Object Repository/Account Info/radiobtn_Title'
+
+13-08-2024T00:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/radiobtn_Title' is checked
+
+13-08-2024T00:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Password"), "Test" + formattedDate + "@" + random): Text 'Test13082024@942' is set on object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T00:38:16 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Password' to value 'Test13082024@942'
+
+13-08-2024T00:38:17 - [MESSAGE][PASSED] - Text 'Test13082024@942' is set on object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T00:38:17 - [TEST_STEP][PASSED] - createCell(1).setCellValue("Test" + formattedDate + "@" + random): null
+
+13-08-2024T00:38:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_days"), "21", false): All options with value '21' are selected in object 'Object Repository/Account Info/drp_days' 
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_days'
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_days' located by 'By.xpath: //select[@name="days"]' in '30' second(s)
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_days' located by 'By.xpath: //select[@name="days"]' in '30' second(s)
+
+13-08-2024T00:38:17 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_days' with value '21'
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:18 - [MESSAGE][PASSED] - All options with value '21' are selected in object 'Object Repository/Account Info/drp_days' 
+
+13-08-2024T00:38:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Account Info/drp_Month"), Short_Timeout): Object 'Object Repository/Account Info/drp_Month' is visible
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Month'
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T00:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/drp_Month' is visible
+
+13-08-2024T00:38:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Month"), "3", false): All options with value '3' are selected in object 'Object Repository/Account Info/drp_Month' 
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Month'
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T00:38:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Month' with value '3'
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:19 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Account Info/drp_Month' 
+
+13-08-2024T00:38:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Year"), "2002", false): All options with value '2002' are selected in object 'Object Repository/Account Info/drp_Year' 
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Year'
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Year' located by 'By.xpath: //select[@name="years"]' in '30' second(s)
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:19 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Year' located by 'By.xpath: //select[@name="years"]' in '30' second(s)
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Year' with value '2002'
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:20 - [MESSAGE][PASSED] - All options with value '2002' are selected in object 'Object Repository/Account Info/drp_Year' 
+
+13-08-2024T00:38:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/checkbox_signUpNews"), Short_Timeout): Scroll to object 'Object Repository/Account Info/checkbox_signUpNews' successfully
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T00:38:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/checkbox_signUpNews' successfully
+
+13-08-2024T00:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/checkbox_signUpNews")): Object: 'Object Repository/Account Info/checkbox_signUpNews' is clicked on
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T00:38:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T00:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/checkbox_signUpNews' is clicked on
+
+13-08-2024T00:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/checkbox_option")): Object: 'Object Repository/Account Info/checkbox_option' is clicked on
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_option'
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_option' located by 'By.xpath: //label[@for="optin"]' in '30' second(s)
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_option' located by 'By.xpath: //label[@for="optin"]' in '30' second(s)
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/checkbox_option'
+
+13-08-2024T00:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/checkbox_option' is clicked on
+
+13-08-2024T00:38:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/txt_first_name"), Short_Timeout): Scroll to object 'Object Repository/Account Info/txt_first_name' successfully
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:21 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/txt_first_name' successfully
+
+13-08-2024T00:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_first_name"), "KBC"): Text 'KBC' is set on object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T00:38:22 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_first_name' to value 'KBC'
+
+13-08-2024T00:38:23 - [MESSAGE][PASSED] - Text 'KBC' is set on object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T00:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_last_name"), "Automation"): Text 'Automation' is set on object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T00:38:23 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_last_name' to value 'Automation'
+
+13-08-2024T00:38:24 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T00:38:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Company"), "Automation"): Text 'Automation' is set on object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T00:38:24 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Company' to value 'Automation'
+
+13-08-2024T00:38:25 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T00:38:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Address"), "Test near test"): Text 'Test near test' is set on object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T00:38:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Address' to value 'Test near test'
+
+13-08-2024T00:38:26 - [MESSAGE][PASSED] - Text 'Test near test' is set on object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T00:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Address2"), "Address 2"): Text 'Address 2' is set on object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T00:38:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Address2' to value 'Address 2'
+
+13-08-2024T00:38:27 - [MESSAGE][PASSED] - Text 'Address 2' is set on object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T00:38:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Account Info/drp_Country"), "Australia", false): All options with label 'Australia' are selected in object 'Object Repository/Account Info/drp_Country' 
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Country'
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Checking label parameter
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Country' located by 'By.xpath: //select[@name="country"]' in '30' second(s)
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Country' located by 'By.xpath: //select[@name="country"]' in '30' second(s)
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Country' with label 'Australia' 
+
+13-08-2024T00:38:27 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:28 - [MESSAGE][PASSED] - All options with label 'Australia' are selected in object 'Object Repository/Account Info/drp_Country' 
+
+13-08-2024T00:38:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/txt_State"), Short_Timeout): Scroll to object 'Object Repository/Account Info/txt_State' successfully
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/txt_State' successfully
+
+13-08-2024T00:38:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_State"), "ACT"): Text 'ACT' is set on object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:28 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_State' to value 'ACT'
+
+13-08-2024T00:38:29 - [MESSAGE][PASSED] - Text 'ACT' is set on object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T00:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_City"), "Melbourne"): Text 'Melbourne' is set on object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T00:38:29 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_City' to value 'Melbourne'
+
+13-08-2024T00:38:30 - [MESSAGE][PASSED] - Text 'Melbourne' is set on object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T00:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_zipcode"), "2900"): Text '2900' is set on object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T00:38:30 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_zipcode' to value '2900'
+
+13-08-2024T00:38:31 - [MESSAGE][PASSED] - Text '2900' is set on object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T00:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/num_Mobile"), "1236123612"): Text '1236123612' is set on object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T00:38:31 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/num_Mobile' to value '1236123612'
+
+13-08-2024T00:38:32 - [MESSAGE][PASSED] - Text '1236123612' is set on object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T00:38:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/btn_CreateAcc"), Short_Timeout): Scroll to object 'Object Repository/Account Info/btn_CreateAcc' successfully
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T00:38:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/btn_CreateAcc' successfully
+
+13-08-2024T00:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/btn_CreateAcc")): Object: 'Object Repository/Account Info/btn_CreateAcc' is clicked on
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T00:38:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T00:38:33 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T00:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/btn_CreateAcc' is clicked on
+
+13-08-2024T00:38:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_AccountCreated"), "ACCOUNT CREATED!"): Actual text and expected text of test object 'Object Repository/Account Info/verify_AccountCreated' are matched.
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_AccountCreated'
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_AccountCreated' located by 'By.xpath: //b[text()='Account Created!']' in '30' second(s)
+
+13-08-2024T00:38:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_AccountCreated' located by 'By.xpath: //b[text()='Account Created!']' in '30' second(s)
+
+13-08-2024T00:38:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_AccountCreated' are matched.
+
+13-08-2024T00:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/btn_Continue")): Object: 'Object Repository/Account Info/btn_Continue' is clicked on
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_Continue'
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_Continue' located by 'By.xpath: //a[text()='Continue']' in '30' second(s)
+
+13-08-2024T00:38:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:37 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_Continue' located by 'By.xpath: //a[text()='Continue']' in '30' second(s)
+
+13-08-2024T00:38:37 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/btn_Continue'
+
+13-08-2024T00:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/btn_Continue' is clicked on
+
+13-08-2024T00:38:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_loggedinUser"), "KBC Automation"): Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_loggedinUser'
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T00:38:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T00:38:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T00:38:40 - [TEST_STEP][PASSED] - file.close(): null
+
+13-08-2024T00:38:40 - [TEST_STEP][PASSED] - outFile = new java.io.FileOutputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T00:38:40 - [TEST_STEP][PASSED] - workbook.write(outFile): null
+
+13-08-2024T00:38:40 - [TEST_STEP][PASSED] - outFile.close(): null
+
+13-08-2024T00:38:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-08-2024T00:38:40 - [MESSAGE][INFO] - Closing browser
+
+13-08-2024T00:38:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L002_Login" time="15.611" classname="Test Cases/Login/L002_Login" status="PASSED">
+         <system-out><![CDATA[13-08-2024T00:38:40 - [TEST_CASE][PASSED] - Test Cases/Login/L002_Login: Test Cases/Login/L002_Login
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - sheet = workbook.getSheetAt(0): null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - userEmail = getCell(0).getStringCellValue(): null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - password = getCell(1).getStringCellValue(): null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - UserEmail = userEmail: null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - Password = password: null
+
+13-08-2024T00:38:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-08-2024T00:38:41 - [MESSAGE][INFO] - Opening browser
+
+13-08-2024T00:38:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-08-2024T00:38:41 - [MESSAGE][INFO] - User set preference: ['args', '[--incognit, --start-maximized]']
+
+13-08-2024T00:38:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-08-2024T00:38:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-08-2024T00:38:42 - [TEST_STEP][PASSED] - navigateToUrl("http://automationexercise.com/"): Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T00:38:42 - [MESSAGE][INFO] - Checking url
+
+13-08-2024T00:38:42 - [MESSAGE][INFO] - Navigating to 'http://automationexercise.com/'
+
+13-08-2024T00:38:46 - [MESSAGE][PASSED] - Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T00:38:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T00:38:46 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T00:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T00:38:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T00:38:47 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T00:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T00:38:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL): Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/img_Home'
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T00:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T00:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Signup-Login")): Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T00:38:48 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T00:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T00:38:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Verify_Logintoyouraccount"), "Login to your account"): Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Verify_Logintoyouraccount'
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T00:38:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T00:38:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T00:38:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_EmailAddress"), UserEmail): Text 'Test13082024@942.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T00:38:51 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_EmailAddress' to value 'Test13082024@942.com'
+
+13-08-2024T00:38:52 - [MESSAGE][PASSED] - Text 'Test13082024@942.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T00:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_password"), Password): Text 'Test13082024@942' is set on object 'Object Repository/Login/txt_password'
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_password'
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T00:38:52 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_password'
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_password' located by 'By.xpath: //input[@data-qa='login-password']' in '30' second(s)
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_password' to value 'Test13082024@942'
+
+13-08-2024T00:38:53 - [MESSAGE][PASSED] - Text 'Test13082024@942' is set on object 'Object Repository/Login/txt_password'
+
+13-08-2024T00:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Login")): Object: 'Object Repository/Login/btn_Login' is clicked on
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Login'
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Login' located by 'By.xpath: //button[@data-qa='login-button']' in '30' second(s)
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Login' located by 'By.xpath: //button[@data-qa='login-button']' in '30' second(s)
+
+13-08-2024T00:38:53 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Login'
+
+13-08-2024T00:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+13-08-2024T00:38:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_loggedinUser"), "KBC Automation"): Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_loggedinUser'
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T00:38:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T00:38:56 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T00:38:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L005_Logout" time="0.13" classname="Test Cases/Login/L005_Logout" status="PASSED">
+         <system-out><![CDATA[13-08-2024T00:38:56 - [TEST_CASE][PASSED] - Test Cases/Login/L005_Logout: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-08-2024T00:37:40 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-out>
+      <system-err><![CDATA[13-08-2024T00:37:40 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-err>
+   </testsuite>
+</testsuites>
