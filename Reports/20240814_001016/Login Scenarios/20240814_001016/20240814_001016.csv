@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Login Scenarios,Chrome 127.0.0.0,,,14-08-2024 00:10:23,14-08-2024 00:11:13,50.627s,FAILED
-,,,,,,,
-Test Cases/Login/L003_Login User with incorrect email and password,Chrome 127.0.0.0,Login User with correct email and password,,14-08-2024 00:10:23,14-08-2024 00:11:13,50.326s,FAILED
-"callTestCase(findTestCase(""Login/Login""), [""userEmail"":userEmail, ""password"":password], STOP_ON_FAILURE)",Chrome 127.0.0.0,Call Login test case to run the login test,,14-08-2024 00:10:23,14-08-2024 00:11:13,50.153s,FAILED

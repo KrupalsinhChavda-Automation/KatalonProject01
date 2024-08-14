@@ -24,5 +24,8 @@ WebUI.click(findTestObject('Object Repository/Login/btn_Logout'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/Login/img_Home'), FailureHandling.OPTIONAL)
 
 
+// Verify Img home page
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/img_Home'), FailureHandling.OPTIONAL)
+
 
 

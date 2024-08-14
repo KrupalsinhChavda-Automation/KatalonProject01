@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/Login/L001_Register User","testCaseId":"Test Cases/Login/L001_Register User","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login/L002_Login User with correct email and password","testCaseId":"Test Cases/Login/L002_Login User with correct email and password","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login/L003_Login User with incorrect email and password","testCaseId":"Test Cases/Login/L003_Login User with incorrect email and password","iterationVariableName":"","bindedValues":{"password":"\u0027123456\u0027","userEmail":"\u0027Test@test.com\u0027"}}
-{"testCaseName":"Test Cases/Login/L001_Register User","testCaseId":"Test Cases/Login/L001_Register User","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login/L004_Logout","testCaseId":"Test Cases/Login/L004_Logout","iterationVariableName":""}
