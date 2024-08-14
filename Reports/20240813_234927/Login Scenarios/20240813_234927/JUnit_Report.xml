@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Scenarios" time="51.302" tests="3" failures="0" errors="1">
+   <testsuite name="Login Scenarios" tests="3" failures="0" errors="1" time="51.302" skipped="0" timestamp="13-08-2024T23:49:34" hostname="krupa - Krupal_Chavda.bbrouter" id="Test Suites/Login Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_234927\\Login Scenarios\\20240813_234927"/>
+         <property name="logFiles" value="K:\\Krupal_QA\\Katalon\\Projects\\Git Katalon Projects\\KatalonProject01\\Reports\\20240813_234927\\Login Scenarios\\20240813_234927\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="krupa - Krupal_Chavda.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="fad2ad401c63b64e11670558286fed8a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/L001_Register User" time="40.84" classname="Test Cases/Login/L001_Register User" status="PASSED">
+         <system-out><![CDATA[13-08-2024T23:49:34 - [TEST_CASE][PASSED] - Test Cases/Login/L001_Register User: Test Cases/Login/L001_Register User
+
+13-08-2024T23:49:35 - [TEST_STEP][PASSED] - file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T23:49:35 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+13-08-2024T23:49:35 - [TEST_STEP][PASSED] - sheet = workbook.getSheetAt(0): null
+
+13-08-2024T23:49:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-08-2024T23:49:36 - [MESSAGE][INFO] - Opening browser
+
+13-08-2024T23:49:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-08-2024T23:49:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-08-2024T23:49:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-08-2024T23:49:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-08-2024T23:49:39 - [MESSAGE][INFO] - Maximizing current window
+
+13-08-2024T23:49:39 - [MESSAGE][PASSED] - Current window maximized
+
+13-08-2024T23:49:39 - [TEST_STEP][PASSED] - navigateToUrl("http://automationexercise.com/"): Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:49:39 - [MESSAGE][INFO] - Checking url
+
+13-08-2024T23:49:39 - [MESSAGE][INFO] - Navigating to 'http://automationexercise.com/'
+
+13-08-2024T23:49:43 - [MESSAGE][PASSED] - Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:49:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:49:43 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:49:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:49:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL): Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/img_Home'
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:49:44 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:49:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:49:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Signup-Login")): Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:49:45 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:49:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Verify_NewUserSignup"), "New User Signup!"): Actual text and expected text of test object 'Object Repository/Login/Verify_NewUserSignup' are matched.
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Verify_NewUserSignup'
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Verify_NewUserSignup' located by 'By.xpath: //h2[text()='New User Signup!']' in '30' second(s)
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Verify_NewUserSignup' located by 'By.xpath: //h2[text()='New User Signup!']' in '30' second(s)
+
+13-08-2024T23:49:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_NewUserSignup' are matched.
+
+13-08-2024T23:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_Name"), "KBC Automation"): Text 'KBC Automation' is set on object 'Object Repository/Login/txt_Name'
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Name'
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:47 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_Name'
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_Name' to value 'KBC Automation'
+
+13-08-2024T23:49:48 - [MESSAGE][PASSED] - Text 'KBC Automation' is set on object 'Object Repository/Login/txt_Name'
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - random = Math.random() * 1000: null
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - myDateObj = LocalDateTime.now(): null
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - out.println("Before formatting: " + myDateObj): null
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - myFormatObj = DateTimeFormatter.ofPattern("ddMMyyyy"): null
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - formattedDate = myDateObj.format(myFormatObj): null
+
+13-08-2024T23:49:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_Email"), "Test" + formattedDate + "@" + random + ".com"): Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_Email'
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Email'
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T23:49:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_Email'
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Email' located by 'By.xpath: //input[@name='email' and @data-qa='signup-email']' in '30' second(s)
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_Email' to value 'Test13082024@269.com'
+
+13-08-2024T23:49:49 - [MESSAGE][PASSED] - Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_Email'
+
+13-08-2024T23:49:49 - [TEST_STEP][PASSED] - createCell(0).setCellValue("Test" + formattedDate + "@" + random + ".com"): null
+
+13-08-2024T23:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_SignUp")): Object: 'Object Repository/Login/btn_SignUp' is clicked on
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_SignUp'
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_SignUp' located by 'By.xpath: //button[@data-qa='signup-button']' in '30' second(s)
+
+13-08-2024T23:49:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_SignUp' located by 'By.xpath: //button[@data-qa='signup-button']' in '30' second(s)
+
+13-08-2024T23:49:50 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_SignUp'
+
+13-08-2024T23:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_SignUp' is clicked on
+
+13-08-2024T23:49:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/txt_Name"), "value", "KBC Automation", Short_Timeout): Object 'Object Repository/Login/txt_Name' has attribute 'value' with value 'KBC Automation'
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_Name'
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_Name' located by 'By.xpath: //input[@name='name']' in '30' second(s)
+
+13-08-2024T23:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login/txt_Name' has attribute 'value' with value 'KBC Automation'
+
+13-08-2024T23:49:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Account Info/verify_Email"), "value", "Test" + formattedDate + "@" + random + ".com", Short_Timeout): Object 'Object Repository/Account Info/verify_Email' has attribute 'value' with value 'Test13082024@269.com'
+
+13-08-2024T23:49:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_Email'
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_Email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_Email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+13-08-2024T23:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/verify_Email' has attribute 'value' with value 'Test13082024@269.com'
+
+13-08-2024T23:49:53 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Account Info/radiobtn_Title")): Object 'Object Repository/Account Info/radiobtn_Title' is checked
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/radiobtn_Title'
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/radiobtn_Title' located by 'By.xpath: //input[@id='id_gender1']' in '30' second(s)
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/radiobtn_Title' located by 'By.xpath: //input[@id='id_gender1']' in '30' second(s)
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking on bject 'Object Repository/Account Info/radiobtn_Title'
+
+13-08-2024T23:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/radiobtn_Title' is checked
+
+13-08-2024T23:49:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Password"), "Test" + formattedDate + "@" + random): Text 'Test13082024@269' is set on object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T23:49:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Password' located by 'By.xpath: //input[@name="password"]' in '30' second(s)
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Password' to value 'Test13082024@269'
+
+13-08-2024T23:49:54 - [MESSAGE][PASSED] - Text 'Test13082024@269' is set on object 'Object Repository/Account Info/txt_Password'
+
+13-08-2024T23:49:54 - [TEST_STEP][PASSED] - createCell(1).setCellValue("Test" + formattedDate + "@" + random): null
+
+13-08-2024T23:49:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_days"), "21", false): All options with value '21' are selected in object 'Object Repository/Account Info/drp_days' 
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_days'
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_days' located by 'By.xpath: //select[@name="days"]' in '30' second(s)
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_days' located by 'By.xpath: //select[@name="days"]' in '30' second(s)
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_days' with value '21'
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:55 - [MESSAGE][PASSED] - All options with value '21' are selected in object 'Object Repository/Account Info/drp_days' 
+
+13-08-2024T23:49:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Account Info/drp_Month"), Short_Timeout): Object 'Object Repository/Account Info/drp_Month' is visible
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Month'
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T23:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Account Info/drp_Month' is visible
+
+13-08-2024T23:49:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Month"), "3", false): All options with value '3' are selected in object 'Object Repository/Account Info/drp_Month' 
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Month'
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Month' located by 'By.xpath: //select[@name="months"]' in '30' second(s)
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Month' with value '3'
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:56 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Account Info/drp_Month' 
+
+13-08-2024T23:49:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Account Info/drp_Year"), "2002", false): All options with value '2002' are selected in object 'Object Repository/Account Info/drp_Year' 
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Year'
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Checking value parameter
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Year' located by 'By.xpath: //select[@name="years"]' in '30' second(s)
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Year' located by 'By.xpath: //select[@name="years"]' in '30' second(s)
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Year' with value '2002'
+
+13-08-2024T23:49:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:57 - [MESSAGE][PASSED] - All options with value '2002' are selected in object 'Object Repository/Account Info/drp_Year' 
+
+13-08-2024T23:49:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/checkbox_signUpNews"), Short_Timeout): Scroll to object 'Object Repository/Account Info/checkbox_signUpNews' successfully
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T23:49:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/checkbox_signUpNews' successfully
+
+13-08-2024T23:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/checkbox_signUpNews")): Object: 'Object Repository/Account Info/checkbox_signUpNews' is clicked on
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_signUpNews' located by 'By.xpath: //label[@for="newsletter"]' in '30' second(s)
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/checkbox_signUpNews'
+
+13-08-2024T23:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/checkbox_signUpNews' is clicked on
+
+13-08-2024T23:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/checkbox_option")): Object: 'Object Repository/Account Info/checkbox_option' is clicked on
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/checkbox_option'
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/checkbox_option' located by 'By.xpath: //label[@for="optin"]' in '30' second(s)
+
+13-08-2024T23:49:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/checkbox_option' located by 'By.xpath: //label[@for="optin"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/checkbox_option'
+
+13-08-2024T23:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/checkbox_option' is clicked on
+
+13-08-2024T23:49:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/txt_first_name"), Short_Timeout): Scroll to object 'Object Repository/Account Info/txt_first_name' successfully
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/txt_first_name' successfully
+
+13-08-2024T23:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_first_name"), "KBC"): Text 'KBC' is set on object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_first_name' located by 'By.xpath: //input[@name="first_name"]' in '30' second(s)
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_first_name' to value 'KBC'
+
+13-08-2024T23:49:59 - [MESSAGE][PASSED] - Text 'KBC' is set on object 'Object Repository/Account Info/txt_first_name'
+
+13-08-2024T23:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_last_name"), "Automation"): Text 'Automation' is set on object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T23:49:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_last_name' located by 'By.xpath: //input[@name="last_name"]' in '30' second(s)
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_last_name' to value 'Automation'
+
+13-08-2024T23:50:00 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Account Info/txt_last_name'
+
+13-08-2024T23:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Company"), "Automation"): Text 'Automation' is set on object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T23:50:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Company' located by 'By.xpath: //input[@name="company"]' in '30' second(s)
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Company' to value 'Automation'
+
+13-08-2024T23:50:01 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Account Info/txt_Company'
+
+13-08-2024T23:50:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Address"), "Test near test"): Text 'Test near test' is set on object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address' located by 'By.xpath: //input[@name="address1"]' in '30' second(s)
+
+13-08-2024T23:50:01 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Address' to value 'Test near test'
+
+13-08-2024T23:50:02 - [MESSAGE][PASSED] - Text 'Test near test' is set on object 'Object Repository/Account Info/txt_Address'
+
+13-08-2024T23:50:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_Address2"), "Address 2"): Text 'Address 2' is set on object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_Address2' located by 'By.xpath: //input[@name="address2"]' in '30' second(s)
+
+13-08-2024T23:50:02 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_Address2' to value 'Address 2'
+
+13-08-2024T23:50:03 - [MESSAGE][PASSED] - Text 'Address 2' is set on object 'Object Repository/Account Info/txt_Address2'
+
+13-08-2024T23:50:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Account Info/drp_Country"), "Australia", false): All options with label 'Australia' are selected in object 'Object Repository/Account Info/drp_Country' 
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/drp_Country'
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking label parameter
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/drp_Country' located by 'By.xpath: //select[@name="country"]' in '30' second(s)
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/drp_Country' located by 'By.xpath: //select[@name="country"]' in '30' second(s)
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Account Info/drp_Country' with label 'Australia' 
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:03 - [MESSAGE][PASSED] - All options with label 'Australia' are selected in object 'Object Repository/Account Info/drp_Country' 
+
+13-08-2024T23:50:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/txt_State"), Short_Timeout): Scroll to object 'Object Repository/Account Info/txt_State' successfully
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/txt_State' successfully
+
+13-08-2024T23:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_State"), "ACT"): Text 'ACT' is set on object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_State' located by 'By.xpath: //input[@name="state"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_State' to value 'ACT'
+
+13-08-2024T23:50:04 - [MESSAGE][PASSED] - Text 'ACT' is set on object 'Object Repository/Account Info/txt_State'
+
+13-08-2024T23:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_City"), "Melbourne"): Text 'Melbourne' is set on object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T23:50:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_City' located by 'By.xpath: //input[@name="city"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_City' to value 'Melbourne'
+
+13-08-2024T23:50:05 - [MESSAGE][PASSED] - Text 'Melbourne' is set on object 'Object Repository/Account Info/txt_City'
+
+13-08-2024T23:50:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/txt_zipcode"), "2900"): Text '2900' is set on object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T23:50:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/txt_zipcode' located by 'By.xpath: //input[@name="zipcode"]' in '30' second(s)
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/txt_zipcode' to value '2900'
+
+13-08-2024T23:50:06 - [MESSAGE][PASSED] - Text '2900' is set on object 'Object Repository/Account Info/txt_zipcode'
+
+13-08-2024T23:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Account Info/num_Mobile"), "1236123612"): Text '1236123612' is set on object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T23:50:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/num_Mobile' located by 'By.xpath: //input[@name="mobile_number"]' in '30' second(s)
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Account Info/num_Mobile' to value '1236123612'
+
+13-08-2024T23:50:07 - [MESSAGE][PASSED] - Text '1236123612' is set on object 'Object Repository/Account Info/num_Mobile'
+
+13-08-2024T23:50:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Account Info/btn_CreateAcc"), Short_Timeout): Scroll to object 'Object Repository/Account Info/btn_CreateAcc' successfully
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T23:50:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Account Info/btn_CreateAcc' successfully
+
+13-08-2024T23:50:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/btn_CreateAcc")): Object: 'Object Repository/Account Info/btn_CreateAcc' is clicked on
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_CreateAcc' located by 'By.xpath: //button[@data-qa="create-account"]' in '30' second(s)
+
+13-08-2024T23:50:07 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/btn_CreateAcc'
+
+13-08-2024T23:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/btn_CreateAcc' is clicked on
+
+13-08-2024T23:50:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_AccountCreated"), "ACCOUNT CREATED!"): Actual text and expected text of test object 'Object Repository/Account Info/verify_AccountCreated' are matched.
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_AccountCreated'
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_AccountCreated' located by 'By.xpath: //b[text()='Account Created!']' in '30' second(s)
+
+13-08-2024T23:50:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_AccountCreated' located by 'By.xpath: //b[text()='Account Created!']' in '30' second(s)
+
+13-08-2024T23:50:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_AccountCreated' are matched.
+
+13-08-2024T23:50:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account Info/btn_Continue")): Object: 'Object Repository/Account Info/btn_Continue' is clicked on
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/btn_Continue'
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/btn_Continue' located by 'By.xpath: //a[text()='Continue']' in '30' second(s)
+
+13-08-2024T23:50:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:12 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/btn_Continue' located by 'By.xpath: //a[text()='Continue']' in '30' second(s)
+
+13-08-2024T23:50:12 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Account Info/btn_Continue'
+
+13-08-2024T23:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Info/btn_Continue' is clicked on
+
+13-08-2024T23:50:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Account Info/verify_loggedinUser"), "KBC Automation"): Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Account Info/verify_loggedinUser'
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T23:50:14 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:15 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Account Info/verify_loggedinUser' located by 'By.xpath: //a[text()=' Logged in as ']/b' in '30' second(s)
+
+13-08-2024T23:50:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account Info/verify_loggedinUser' are matched.
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - file.close(): null
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - outFile = new java.io.FileOutputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - workbook.write(outFile): null
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - outFile.close(): null
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-08-2024T23:50:15 - [MESSAGE][INFO] - Closing browser
+
+13-08-2024T23:50:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L004_Logout" time="10.163" classname="Test Cases/Login/L004_Logout" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L004_Logout FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at L004_Logout.run(L004_Logout:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806&#xa;	at Login.run(Login:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)&#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[13-08-2024T23:50:15 - [TEST_CASE][ERROR] - Test Cases/Login/L004_Logout: Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx))): null
+
+13-08-2024T23:50:15 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+13-08-2024T23:50:16 - [TEST_STEP][PASSED] - sheet = workbook.getSheetAt(0): null
+
+13-08-2024T23:50:16 - [TEST_STEP][PASSED] - userEmail = getCell(0).getStringCellValue(): null
+
+13-08-2024T23:50:16 - [TEST_STEP][PASSED] - password = getCell(1).getStringCellValue(): null
+
+13-08-2024T23:50:16 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Login/Login"), ["userEmail":userEmail, "password":password], STOP_ON_FAILURE): Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+
+
+13-08-2024T23:50:16 - [MESSAGE][INFO] - Checking called Test Case
+
+13-08-2024T23:50:16 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Login/Login'
+
+13-08-2024T23:50:16 - [TEST_CASE][ERROR] - Test Cases/Login/Login: Test Cases/Login/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-08-2024T23:50:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-08-2024T23:50:16 - [MESSAGE][INFO] - Opening browser
+
+13-08-2024T23:50:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-08-2024T23:50:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-08-2024T23:50:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-08-2024T23:50:17 - [TEST_STEP][PASSED] - navigateToUrl("http://automationexercise.com/"): Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:50:17 - [MESSAGE][INFO] - Checking url
+
+13-08-2024T23:50:17 - [MESSAGE][INFO] - Navigating to 'http://automationexercise.com/'
+
+13-08-2024T23:50:20 - [MESSAGE][PASSED] - Navigate to 'http://automationexercise.com/' successfully
+
+13-08-2024T23:50:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Menu_Home"), Long_Timeout): Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:50:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '60' second(s)
+
+13-08-2024T23:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' is visible
+
+13-08-2024T23:50:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout): Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Menu_Home'
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Checking attribute name
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:50:21 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Menu_Home' located by 'By.xpath: //a[@href="/" and contains(.,'Home')]' in '30' second(s)
+
+13-08-2024T23:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Menu_Home' has attribute 'style' with value 'color: orange;'
+
+13-08-2024T23:50:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL): Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/img_Home'
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/img_Home' located by 'By.xpath: //a[@href="/" ]//img' in '30' second(s)
+
+13-08-2024T23:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/img_Home' is visible
+
+13-08-2024T23:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_Signup-Login")): Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/btn_Signup-Login' located by 'By.xpath: //a[@href="/login" and contains(.,'Signup / Login')]' in '30' second(s)
+
+13-08-2024T23:50:22 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Login/btn_Signup-Login'
+
+13-08-2024T23:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Signup-Login' is clicked on
+
+13-08-2024T23:50:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Verify_Logintoyouraccount"), "Login to your account"): Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/Verify_Logintoyouraccount'
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/Verify_Logintoyouraccount' located by 'By.xpath: //h2[text()='Login to your account']' in '30' second(s)
+
+13-08-2024T23:50:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_Logintoyouraccount' are matched.
+
+13-08-2024T23:50:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/txt_EmailAddress"), userEmail): Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Checking object
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Checking text
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:50:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Checking timeout
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Login/txt_EmailAddress' located by 'By.xpath: //input[@data-qa='login-email']' in '30' second(s)
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Login/txt_EmailAddress' to value 'Test13082024@269.com'
+
+13-08-2024T23:50:25 - [MESSAGE][PASSED] - Text 'Test13082024@269.com' is set on object 'Object Repository/Login/txt_EmailAddress'
+
+13-08-2024T23:50:25 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Login/txt_password"), Password): Test Cases/Login/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-08-2024T23:50:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Login/txt_password'
+
+13-08-2024T23:50:25 - [MESSAGE][ERROR] - Test Cases/Login/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-08-2024T23:50:25 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Login/Login' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+)
+
+13-08-2024T23:50:25 - [MESSAGE][ERROR] - Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more]]></system-out>
+         <system-err><![CDATA[13-08-2024T23:50:15 - [TEST_CASE][ERROR] - Test Cases/Login/L004_Logout: Test Cases/Login/L004_Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Login/Login' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at L004_Logout.run(L004_Logout:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723573167722.run(TempTestSuite1723573167722.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingPropertyException: No such property: Password for class: Script1723572178806
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L002_Login User with correct email and password" time="0.052" classname="Test Cases/Login/L002_Login User with correct email and password" status="PASSED">
+         <system-out><![CDATA[13-08-2024T23:50:25 - [TEST_CASE][PASSED] - Test Cases/Login/L002_Login User with correct email and password: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-08-2024T23:49:34 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-out>
+      <system-err><![CDATA[13-08-2024T23:49:34 - [TEST_SUITE][INCOMPLETE] - Login Scenarios: null]]></system-err>
+   </testsuite>
+</testsuites>

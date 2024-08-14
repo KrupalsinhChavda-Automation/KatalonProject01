@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx)))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. sheet = workbook.getSheetAt(0)
+
+4
+00:00:00,000 --> 00:00:00,000
+15. Read data from excel
+
+5
+00:00:00,000 --> 00:00:00,000
+19. password = getCell(1).getStringCellValue()
+
+6
+00:00:00,000 --> 00:00:00,000
+25. Call Login test case to run the login test
+
+7
+00:00:00,000 --> 00:00:00,000
+1. file = new java.io.FileInputStream(new java.io.File((java.lang.System.getProperty(user.dir) + \Data Files\dataFile.xlsx)))
+
+8
+00:00:00,000 --> 00:00:00,000
+5. workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file)
+
+9
+00:00:00,000 --> 00:00:00,000
+9. sheet = workbook.getSheetAt(0)
+
+10
+00:00:00,000 --> 00:00:00,000
+15. Read data from excel
+
+11
+00:00:00,000 --> 00:00:00,000
+19. password = getCell(1).getStringCellValue()
+
+12
+00:00:00,000 --> 00:00:00,000
+23. UserEmail = userEmail
+
+13
+00:00:00,000 --> 00:00:00,000
+27. Password = password
+
+14
+00:00:00,000 --> 00:00:00,000
+31. openBrowser("")
+
+15
+00:00:00,000 --> 00:00:00,000
+37. Navigate to url http://automationexercise.com
+
+16
+00:00:00,000 --> 00:00:00,000
+43. Verify that home page is visible successfully
+
+17
+00:00:00,000 --> 00:00:00,000
+47. verifyElementAttributeValue(findTestObject("Object Repository/Login/Menu_Home"), "style", "color: orange;", Short_Timeout)
+
+18
+00:00:00,000 --> 00:00:00,000
+51. verifyElementVisible(findTestObject("Object Repository/Login/img_Home"), OPTIONAL)
+
+19
+00:00:00,000 --> 00:00:00,000
+57. Click on "Signup / Login" button
+
+20
+00:00:00,000 --> 00:00:00,000
+63. Verify "Login to your account" is visible
+
+21
+00:00:00,000 --> 00:00:00,000
+69. Enter correct email address
+
+22
+00:00:00,000 --> 00:00:00,000
+75. Enter correct email address
+
+23
+00:00:00,000 --> 00:00:00,000
+81. Click on "Login" button
+
+24
+00:00:00,000 --> 00:00:00,000
+87. Verify logged in user
+
+25
+00:00:00,000 --> 00:00:00,000
+91. closeBrowser()
+
+26
+00:00:00,000 --> 00:00:00,000
+31. Verify logged in user
+

@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login/L002_Login User with correct email and password","testCaseId":"Test Cases/Login/L002_Login User with correct email and password","iterationVariableName":"","bindedValues":{"password":"\u0027Test11082024@125\u0027","userEmail":"\u0027Test11082024@125.com\u0027"}}
+{"testCaseName":"Test Cases/Login/L004_Logout","testCaseId":"Test Cases/Login/L004_Logout","iterationVariableName":"","bindedValues":{"password":"\u0027Test11082024@125\u0027","userEmail":"\u0027Test11082024@125.com\u0027"}}
