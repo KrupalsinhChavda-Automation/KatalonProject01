@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C001_Contact Us Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1917d9a8-1b61-4a0d-9699-ac18ff5a7ce0</testCaseGuid>
+</TestCaseEntity>
