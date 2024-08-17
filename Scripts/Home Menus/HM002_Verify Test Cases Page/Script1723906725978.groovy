@@ -34,8 +34,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Me
 WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on "Test Cases" button'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/btn_TestCases'), 10)
-WebUI.click(findTestObject('Object Repository/Home Page/btn_TestCases'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_TestCases'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/Menu_TestCases'))
 
 'Verify "GET IN TOUCH" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/Test Cases/verify_TestCases'), 'TEST CASES')

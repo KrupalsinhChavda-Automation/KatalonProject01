@@ -25,7 +25,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Me
 WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on "Signup / Login" button'
-WebUI.click(findTestObject('Object Repository/Home Page/btn_Signup-Login'))
+WebUI.click(findTestObject('Object Repository/Home Page/Menu_Signup-Login'))
 
 'Verify "Login to your account" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/Login/Verify_Logintoyouraccount'), 'Login to your account')

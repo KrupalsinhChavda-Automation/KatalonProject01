@@ -34,8 +34,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Me
 WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on Contact Us button'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/btn_contact_us'), 10)
-WebUI.click(findTestObject('Object Repository/Home Page/btn_contact_us'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_contact_us'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/Menu_contact_us'))
 
 'Verify "GET IN TOUCH" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/ContactUs/Verify_GetInTouch'), 'GET IN TOUCH')

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Products</name>
+   <name>serachedProductOne</name>
    <tag></tag>
-   <elementGuidId>822b1852-dd0a-4b33-8590-6046dd01f616</elementGuidId>
+   <elementGuidId>855d8415-d579-4fce-a806-a32cce5deccd</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt='ecommerce website products']//following-sibling::p)[1]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@href = '/products']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

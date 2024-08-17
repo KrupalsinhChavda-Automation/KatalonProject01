@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_contact_us</name>
+   <name>verify_Subscription</name>
    <tag></tag>
-   <elementGuidId>d0a8d471-f7fd-4862-a50b-a1fe7066006c</elementGuidId>
+   <elementGuidId>d397a95d-fedd-4eb6-8eb2-ac45363ffb11</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[text()='You have been successfully subscribed!']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href = '/contact_us']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -34,8 +34,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Me
 WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on "Products" button'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/btn_Products'), 10)
-WebUI.click(findTestObject('Object Repository/Home Page/btn_Products'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_Products'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/Menu_Products'))
 
 'Verify "All Products" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/Products/verify_AllProducts'), 'ALL PRODUCTS')
