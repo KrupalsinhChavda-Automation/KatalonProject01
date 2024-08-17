@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_contact_us</name>
+   <name>category1</name>
    <tag></tag>
-   <elementGuidId>d0a8d471-f7fd-4862-a50b-a1fe7066006c</elementGuidId>
+   <elementGuidId>e577314b-5c74-4f99-8e68-09d2037d5746</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@href = '/contact_us']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='ecommerce website products']//following-sibling::p[1][contains(text(),'Category')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

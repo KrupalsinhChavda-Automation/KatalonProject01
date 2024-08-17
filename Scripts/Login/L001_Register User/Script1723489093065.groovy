@@ -24,15 +24,15 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('http://automationexercise.com/')
 
 'Verify that home page is visible successfully'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Login/Menu_Home'), GlobalVariable.Long_Timeout)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_Home'), GlobalVariable.Long_Timeout)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Login/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
 
 // Verify Img home page
-WebUI.verifyElementVisible(findTestObject('Object Repository/Login/img_Home'), FailureHandling.OPTIONAL)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on "Signup / Login" button'
-WebUI.click(findTestObject('Object Repository/Login/btn_Signup-Login'))
+WebUI.click(findTestObject('Object Repository/Home Page/btn_Signup-Login'))
 
 'Verify "New User Signup!" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/Login/Verify_NewUserSignup'), 'New User Signup!')

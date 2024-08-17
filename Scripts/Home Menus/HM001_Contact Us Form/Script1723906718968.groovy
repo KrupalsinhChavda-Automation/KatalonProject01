@@ -26,16 +26,16 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('http://automationexercise.com/')
 
 'Verify that home page is visible successfully'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Login/Menu_Home'), GlobalVariable.Long_Timeout)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_Home'), GlobalVariable.Long_Timeout)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Login/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
 
 // Verify Img home page 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Login/img_Home'), FailureHandling.OPTIONAL)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 'Click on Contact Us button'
-WebUI.waitForElementVisible(findTestObject('Object Repository/Login/btn_contact_us'), 10)
-WebUI.click(findTestObject('Object Repository/Login/btn_contact_us'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/btn_contact_us'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/btn_contact_us'))
 
 'Verify "GET IN TOUCH" is visible'
 WebUI.verifyElementText(findTestObject('Object Repository/ContactUs/Verify_GetInTouch'), 'GET IN TOUCH')
@@ -67,11 +67,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/ContactUs/verify_Co
 WebUI.verifyElementText(findTestObject('Object Repository/ContactUs/verify_ContactUs'), 'Success! Your details have been submitted successfully.')
 
 'Verify that home page is visible successfully'
-WebUI.scrollToElement(findTestObject('Object Repository/Login/Menu_Home'), 10)
-WebUI.click(findTestObject('Object Repository/Login/Menu_Home'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/Login/Menu_Home'), GlobalVariable.Long_Timeout)
+WebUI.scrollToElement(findTestObject('Object Repository/Home Page/Menu_Home'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/Menu_Home'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_Home'), GlobalVariable.Long_Timeout)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Login/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
 
 WebUI.closeBrowser()
 

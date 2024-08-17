@@ -15,7 +15,7 @@
       <guid>79d94a21-0898-4063-bedd-a01435bc6eee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Comman Test Cases/C001_Contact Us Form</testCaseId>
+      <testCaseId>Test Cases/Home Menus/HM001_Contact Us Form</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

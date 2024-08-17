@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Login/Login'), [('userEmail') : userEmail, ('pa
 WebUI.click(findTestObject('Object Repository/Login/btn_Logout'))
 
 // Verify Img home page
-WebUI.verifyElementVisible(findTestObject('Object Repository/Login/img_Home'), FailureHandling.OPTIONAL)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
 //WebUI.closeBrowser();
 

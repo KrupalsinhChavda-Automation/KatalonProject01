@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HM003_Verify All Products and product detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0886f7cf-b1ad-4654-b8f4-b34e246a23d6</testCaseGuid>
+</TestCaseEntity>

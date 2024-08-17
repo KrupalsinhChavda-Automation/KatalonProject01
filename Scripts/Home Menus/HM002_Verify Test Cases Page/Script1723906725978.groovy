@@ -17,15 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click on signout button
-WebUI.click(findTestObject('Object Repository/Login/btn_Logout'))
+'Launch browser'
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+'Navigate to url http://automationexercise.com'
+WebUI.navigateToUrl('http://automationexercise.com/')
+
+'Verify that home page is visible successfully'
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/Menu_Home'), GlobalVariable.Long_Timeout)
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Home Page/Menu_Home'), 'style', 'color: orange;', GlobalVariable.Short_Timeout)
 
 // Verify Img home page
 WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
 
+'Click on "Test Cases" button'
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/btn_TestCases'), 10)
+WebUI.click(findTestObject('Object Repository/Home Page/btn_TestCases'))
 
-// Verify Img home page
-WebUI.verifyElementVisible(findTestObject('Object Repository/Home Page/img_Home'), FailureHandling.OPTIONAL)
+'Verify "GET IN TOUCH" is visible'
+WebUI.verifyElementText(findTestObject('Object Repository/Test Cases/verify_TestCases'), 'TEST CASES')
 
-
-
+WebUI.closeBrowser()
