@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P012_Add to cart from Recommended items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b1eb580-ce0e-4af4-afea-4b8ede0e43a6</testCaseGuid>
+</TestCaseEntity>

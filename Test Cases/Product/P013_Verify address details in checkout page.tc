@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P013_Verify address details in checkout page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f34a8be-f69d-4adb-85b5-268746ce7a5d</testCaseGuid>
+</TestCaseEntity>

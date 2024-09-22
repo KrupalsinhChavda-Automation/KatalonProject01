@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HM006_Verify Scroll Up using Arrow button and Scroll Down functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40a1f1ef-f981-4dbc-bb56-26cd41945a2d</testCaseGuid>
+</TestCaseEntity>

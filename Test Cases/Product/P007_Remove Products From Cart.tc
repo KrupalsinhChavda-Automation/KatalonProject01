@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P007_Remove Products From Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>333b2f2c-6830-4887-a44e-5e501c248c9c</testCaseGuid>
+</TestCaseEntity>

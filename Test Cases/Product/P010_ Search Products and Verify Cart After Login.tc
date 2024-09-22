@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P010_ Search Products and Verify Cart After Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a99cdf4d-2728-48c6-b5fc-7d58a57dc120</testCaseGuid>
+</TestCaseEntity>

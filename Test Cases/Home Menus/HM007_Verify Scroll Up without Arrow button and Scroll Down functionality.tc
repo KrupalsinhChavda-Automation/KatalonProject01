@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HM007_Verify Scroll Up without Arrow button and Scroll Down functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74629bd5-02c3-45b8-afbd-93ce70a8d07f</testCaseGuid>
+</TestCaseEntity>

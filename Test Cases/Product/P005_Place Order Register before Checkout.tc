@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P005_Place Order Register before Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d9a6bec-4c6d-4ba2-8aba-58aed26f4430</testCaseGuid>
+</TestCaseEntity>

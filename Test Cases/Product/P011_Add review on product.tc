@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P011_Add review on product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca26a01f-fe9b-4f5e-927b-6309504d0f4e</testCaseGuid>
+</TestCaseEntity>
